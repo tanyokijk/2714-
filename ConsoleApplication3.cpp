@@ -80,7 +80,7 @@ public:
 		char guess = ' ';
 		string guessed="";
 		int tries = 6;
-		int flagFound = 0;
+		int mark = 0;
 
 		while (tries >= 0)
 		{
@@ -144,18 +144,18 @@ public:
 
 					if (dispWord.find(guess) != string::npos) tries++;
 
-					flagFound = 0;
+					mark = 0;
 					for (int i = 0; i < wordLength; i++)
 					{
 						if (word[i] == guess && dispWord[i] == '_')
 						{
 							dispWord[i] = guess;
 							found++;
-							flagFound = 1;
+							mark = 1;
 						}
 					}
 
-					if (!flagFound)
+					if (!mark)
 						tries--;
 
 				}
