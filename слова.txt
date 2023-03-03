@@ -6,7 +6,7 @@ gym
 myth
 cat
 scrap
-system
+star
 dog
 eye
 mouth
@@ -15,9 +15,11 @@ ear
 hoe
 wire
 car
+bear
 pain
 tire
 sea
+map
 court
 wolf
 paw
@@ -25,7 +27,7 @@ hand
 leg
 note
 bad
-atom
+road
 water
 faith
 hole
@@ -33,9 +35,9 @@ site
 mustache
 beard
 cyborg
-road
+atom
 earth
-star
+system
 vegetable
 leader
 leakage
@@ -44,7 +46,6 @@ package
 spoon
 hour
 mouse
-map
 drink
 strap
 hat
@@ -66,7 +67,7 @@ tomorrow
 pantry
 speed
 microphone
-bear
+mustache
 sneakers
 plaster
 rose
@@ -92,7 +93,6 @@ possibility
 tool
 pupil
 monitor
-bulb
 headphone
 concert
 leisure
