@@ -46,7 +46,7 @@ public:
 			word = wordList[rand() % 33 + 66];
 
 		int wordLength = word.length();
-		cout << word;
+		
 		string dispWord(wordLength, '_');
 
 		int found = 0;
