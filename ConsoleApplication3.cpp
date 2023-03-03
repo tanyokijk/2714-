@@ -24,6 +24,33 @@ public:
 			wordList.push_back(слово);
 		}
 	}
+		~Game() {}
+	Game(Game & other)
+	{
+		this->wordList = other.wordList;
+		this->word = other.word;
+	}
+	Game& operator=(Game&& other)
+	{
+		if (&other == this)
+			return *this;
+		wordList = other.wordList;
+		word = other.word;
+		return *this;
+	}
+	Game(const Game& other)
+	{
+		this->wordList = other.wordList;
+		this->word = other.word;
+	}
+	Game& operator=(const Game& other)
+	{
+		if (&other == this)
+			return *this;
+		wordList = other.wordList;
+		word = other.word;
+		return *this;
+	}
 	void вивід(int спроби)
 	{
 		switch (спроби)
